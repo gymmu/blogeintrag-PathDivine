@@ -10,12 +10,3 @@ body {
   font-family: sans-serif;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 20px 0;
-}
