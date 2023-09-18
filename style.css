@@ -10,3 +10,11 @@ body {
   font-family: sans-serif;
 }
 
+.titel {
+position: relative; left: 20px;
+}
+.startseite {
+position: relative; left: 60px;
+
+}
+
