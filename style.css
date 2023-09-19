@@ -6,13 +6,37 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: white;
   font-family: sans-serif;
 }
 
 .titel_startseite {
-position: relative; left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 77%;
+height: 135px;
+position: relative;left: 120px;
 }
+
+.titel_startseite > div.content {
+  color: rgba(0, 0, 0, 0.67);
+  z-index: 1;
+}
+
+.titel_startseite > div.bg-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.titel_startseite > div.bg-img > img {
+  width: 100%;
+  transform: translateY(-4%);
+}
+
 .startseite {
 position: relative; left: 120px;
 width: 800px;
