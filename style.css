@@ -42,6 +42,11 @@ position: relative; left: 160px;
 width: 1130px;
 }
 
+.text_settings_2 {
+  position: relative; left: 160px;
+  width: 900px;
+  }
+
 .text-next-to-img {
   display: grid;
   grid-template-columns: 70% auto;
