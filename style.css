@@ -48,6 +48,12 @@ width: 1130px;
   width: 900px;
   }
 
+.text_settings_3 {
+  position: relative; left: 160px;
+  width: 900px;
+  }
+
+
 .text-next-to-img {
   display: grid;
   grid-template-columns: 70% auto;
