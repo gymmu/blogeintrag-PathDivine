@@ -67,11 +67,13 @@ width: 1130px;
 .text-next-to-text > .text_settings_3 {
   border: 1px solid lightgray;
   padding: 1rem 2rem;
+  width: 70%;
 }
 
 .text-next-to-text > .text_settings_31 {
   border: 1px solid lightgray;
   padding: 1rem 2rem;
+  width: 52%;
 }
 
 .text-next-to-img {
