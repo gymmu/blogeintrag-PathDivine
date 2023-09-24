@@ -60,11 +60,7 @@ width: 1130px;
   gap: 1rem;
 }
 
-.text-next-to-img > .text {
-  border: 1px solid lightgray;
-  padding: 1rem 2rem;
-}
 
 .text-next-to-img > img {
-  width: 50%;
+  width: 60%;
 }
