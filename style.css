@@ -53,6 +53,26 @@ width: 1130px;
   width: 400px;
   }
 
+.text_settings_31 {
+  position: relative;left: 140px;
+  width: 400px;
+}
+
+.text-next-to-text {
+  display: grid;
+  grid-template-columns: 45% auto;
+  gap: 1rem;
+}
+
+.text-next-to-text > .text_settings_3 {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+}
+
+.text-next-to-text > .text_settings_31 {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+}
 
 .text-next-to-img {
   display: grid;
