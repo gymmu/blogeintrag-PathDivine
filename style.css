@@ -6,6 +6,83 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: white;
   font-family: sans-serif;
+}
+
+.titel_startseite {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 77%;
+height: 135px;
+position: relative;left: 160px;
+}
+
+.titel_startseite > div.content {
+  color: rgba(0, 0, 0, 0.67);
+  z-index: 1;
+}
+
+.titel_startseite > div.bg-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.titel_startseite > div.bg-img > img {
+  width: 100%;
+  transform: translateY(-4%);
+}
+
+.text_settings {
+position: relative; left: 160px;
+width: 1130px;
+}
+
+.text_settings_2 {
+  position: relative; left: 160px;
+  width: 900px;
+  }
+
+.text_settings_3 {
+  position: relative; left: 160px;
+  width: 400px;
+  }
+
+.text_settings_31 {
+  position: relative;left: 140px;
+  width: 400px;
+}
+
+.text-next-to-text {
+  display: grid;
+  grid-template-columns: 45% auto;
+  gap: 1rem;
+}
+
+.text-next-to-text > .text_settings_3 {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+  width: 70%;
+}
+
+.text-next-to-text > .text_settings_31 {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+  width: 52%;
+}
+
+.text-next-to-img {
+  display: grid;
+  grid-template-columns: 70% auto;
+  gap: 1rem;
+}
+
+
+.text-next-to-img > img {
+  width: 60%;
 }
